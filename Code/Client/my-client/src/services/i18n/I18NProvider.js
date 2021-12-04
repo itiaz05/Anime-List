@@ -2,7 +2,7 @@ import React from 'react';
 import { IntlProvider } from 'react-intl';
 import flatten from 'flat';
 
-const DEFAULT_LOCALE = 'he';
+const DEFAULT_LOCALE = 'en';
 
 export const loadLocaleData = async (locale = DEFAULT_LOCALE) => {
     try {

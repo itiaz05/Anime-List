@@ -2,6 +2,17 @@
   "header": {
     "logo":{
       "picture_alt": "my site logo"
+    },
+    "message": {
+      "placeholder": "Hello Visitor!"
+    }
+  },
+  "anime": {
+    "name": {
+      "placeholder": "Name:"
+    },
+    "rate": {
+      "placeholder": "Rating:"
     }
   }
 }

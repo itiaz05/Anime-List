@@ -1,13 +1,14 @@
 import React from 'react';
 import Logo from './Logo';
-import style from './Header.module.css'
+import Headline from './Headline'
+import HelloUser from "./HelloUser";
 
-const Header = ({pictureAlt, msg}) => {
+const Header = ({pictureAlt, hiMessage, headerHeadline}) => {
     return (
         <div className="header_container">
-            <p className={style.visitor_message}>{msg}
+            <Headline text={headerHeadline}/>
             <Logo alt={pictureAlt}/>
-            </p>
+            <HelloUser message={hiMessage}/>
         </div>
     );
 };

@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './anime_logo.jpg'
+import logo from './obito_logo.jpg'
 import style from './Header.module.css'
 
 const Logo = ({pictureAlt}) => {
     return (
         <div>
-            <img src={logo} alt={pictureAlt} className={style.logo_container}/>
+            <img src={logo} alt={pictureAlt} className={style.logoImage}/>
         </div>
     );
 };

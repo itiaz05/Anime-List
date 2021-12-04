@@ -1,9 +1,17 @@
-.logo_container {
-    width: 450px;
-    height: 80px;
-
+.logoImage {
+    grid-column: 1 / 5;
+    width: 150px;
+    height: 100px;
+    align-items: start;
 }
 
-.visitor_message {
+.headHeadline {
+    grid-column: 5 / 8;
+    color: white;
+    text-align: center;
+}
+
+.visitorMessage {
     text-align: left;
+    color: white;
 }

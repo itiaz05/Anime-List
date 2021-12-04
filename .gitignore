@@ -1,3 +1,11 @@
 .idea/**
 code/client/my-client/node_modules
 venv
+
+# Private Keys
+code/server/mightyserver/mightyserver/DjangoSercretKey.py
+
+# Images & Backgrounds:
+code/client/my-client/src/*.jpg
+code/client/my-client/src/components/Header/*.jpg
+code/client/my-client/src/components/Header/*.png
