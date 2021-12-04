@@ -1,1 +1,3 @@
-.idea
+.idea/**
+code/client/my-client/node_modules
+venv
